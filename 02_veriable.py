@@ -1,4 +1,8 @@
-print("There once was a man nemed Anowar")
-print("He was 200 years old.")
-print("He likes to code daily")
+character_name = "Anowar"
+character_age = 500
+character_likes ="coding, travel"
+
+print("There once was a man nemed " +character_name)
+print("He was "+ str(character_age) + " years old.")
+print("He likes to " +character_likes)
 print("But didn't like being 200.")
