@@ -6,3 +6,8 @@ print("   /  |")
 print("  /   |")
 print(" /    |")
 print("/_____|")
+
+# >> single lien commetn
+"""
+multi line comment
+"""
