@@ -19,3 +19,6 @@ list3 = ['US','USD','+1']
 
 list2 += list3
 print(list2)
+
+for item in list2 :
+    print(item)
