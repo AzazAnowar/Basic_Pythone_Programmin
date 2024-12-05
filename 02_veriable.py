@@ -1,3 +1,31 @@
+"""
+Summary
+Basic Syntex
+
+Text-Type : Str
+Numeric Types: int, float, complex
+Sequence Type: list, tuple, range
+Mapping Type: dict
+Set Types: set, frozenset
+Boolean Type : bool [true, false]
+Binary Types: bytes, bytearray, memoryview
+
+*** Indentation is very sensitive in python. Scopes are defined by semicolon and indentation.
+
+Data Type Casting
+
+x = float(10) #value of x will be 10.0
+y = int(5.5) #value of y will be 2
+z = str(20) #value of x will be "20"
+
+Operators:
+
+Arithmetic Operators: + , - , * , / , + , % , ** , // .
+Assignment Operators: += , -= , *= etc.
+Comparison Operators: > , < , == , != , >= , <= .
+
+"""
+
 character_name = "Anowar"
 character_age = 500
 character_likes ="coding, travel"
