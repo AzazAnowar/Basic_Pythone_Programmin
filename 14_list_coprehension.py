@@ -66,3 +66,55 @@ print(numbers[:5])
 print(numbers[5:])
 print(numbers[::2])
 print(numbers[::-1])
+
+#numbers[::3]
+#numbers[::-2]
+
+### Iterating Over List
+
+for number in numbers:
+    print(number)
+
+## Iterating with index
+for index,number in enumerate(numbers):
+    print(index,number)
+
+## List comprehension
+lst=[]
+for x in range(10):
+    lst.append(x**2)
+
+print(lst)
+
+lst1 = [x**2 for x in range(10)]
+print(lst1)
+
+### Basic List Compression
+
+sqaure=[num**2 for num in range(10)]
+print(sqaure)
+
+### List Comprehension with Condition
+lst=[]
+for i in range(10):
+    if i%2==0:
+        lst.append(i)
+
+print(lst)
+
+even_numbers=[num for num in range(10) if num%2==0]
+print(even_numbers)
+
+## Nested List Comphrension
+
+lst1=[1,2,3,4]
+lst2=['a','b','c','d']
+
+pair=[[i,j] for i in lst1 for j in lst2]
+
+print(pair)
+
+## List Comprehension with function calls
+words = ["hello", "world", "python", "list", "comprehension"]
+lengths = [len(word) for word in words]
+print(lengths)  # Output: [5, 5, 6, 4, 13]
